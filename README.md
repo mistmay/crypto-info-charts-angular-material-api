@@ -1,3 +1,7 @@
+App for searching updated Crypto Information, made with Angular, Material, Bootstrap, Html, Scss and Typescript.
+For charts, I used ng2-charts and chart.js.
+I also used Api from https://api.coingecko.com/api/ 
+
 # CryptoTracker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.

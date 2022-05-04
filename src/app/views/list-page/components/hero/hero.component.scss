@@ -1,0 +1,50 @@
+section {
+  background-image: url('../../../../../assets/img/banner2.jpg');
+  height: 200px;
+
+  #hero-header {
+    height: 40%;
+
+    h2 {
+      margin-bottom: 15px;
+      font-size: 3.75rem;
+      line-height: 1.2;
+      letter-spacing: - 0.0003;
+    }
+
+    h6 {
+      color: darkgray;
+      text-transform: capitalize;
+      font-size: 0.8rem;
+      font-weight: 500;
+      line-height: 1.57;
+      letter-spacing: 0.00714em;
+    }
+  }
+
+  .card {
+    border: none;
+    padding: 10px;
+    margin: 40px;
+    width: 100px;
+    height: 200px;
+
+    img {
+      width: 70px;
+    }
+
+    h5 {
+      font-weight: 500;
+    }
+
+    p {
+      font-weight: 700;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  section {
+    height: 400px;
+  }
+}

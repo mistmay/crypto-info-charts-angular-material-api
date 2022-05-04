@@ -1,0 +1,12 @@
+<header>
+  <mat-toolbar class="h-100">
+    <span class="d-none d-sm-block">CryptoChecker</span>
+    <span class="example-spacer"></span>
+    <mat-form-field>
+      <mat-select [(ngModel)]="selectedCurrency" class="text-sm" (valueChange)="sendCurrency($event)">
+        <mat-option selected value="INR">INR</mat-option>
+        <mat-option value="USD">USD</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </mat-toolbar>
+</header>
